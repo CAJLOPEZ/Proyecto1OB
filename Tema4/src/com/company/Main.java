@@ -53,6 +53,7 @@ public class Main {
                 break;
             default:
                 System.out.println("No es una estación");
+
         }
     }
 }
