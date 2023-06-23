@@ -35,5 +35,24 @@ public class Main {
         for(int numeroFor = 0; numeroFor <= 5; numeroFor++){
             System.out.println("La variable numeroFor ahora vale: " + numeroFor);
         }
+
+        //switch
+        String estacion = "otoño";
+        switch(estacion) {
+            case "verano":
+                System.out.println("Estamos en verano");
+                break;
+            case "invierno":
+                System.out.println("Estamos en invierno");
+                break;
+            case "primavera":
+                System.out.println("Estamos en primavera");
+                break;
+            case "otoño":
+                System.out.println("Estamos en otoño");
+                break;
+            default:
+                System.out.println("No es una estación");
+        }
     }
 }
