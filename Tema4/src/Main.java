@@ -1,5 +1,4 @@
 public class SmartDevice {
-    public static void SmartDevice(String[] args) {
         String marca;
         String modelo;
         String color;
@@ -76,5 +75,4 @@ public class SmartDevice {
         }
 
     }
-}
 
